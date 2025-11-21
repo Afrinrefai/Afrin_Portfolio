@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="animation.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Afrin - Portfolio</title>
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+
+
+        <nav class="navbar navbar-expand-md fixed-top custom-nav">
+            <div class="container">
+
+                <!-- Logo / Name -->
+                <a class="navbar-brand profile_name" href="#">Afrin Refai</a>
+
+                <!-- Toggle button for mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation links -->
+                <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                    <ul class="navbar-nav gap-2">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#academics">Academics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#certificates">Certifications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#connect">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <div class="top-bar">
+            <!-- <img src="./Asset/Wave_background.png" alt="wave-image" class="wave-img"> -->
+            <section class="hero container-fluid d-flex align-items-center py-5">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+
+                        <!-- Text content -->
+                        <div class="col-12 col-md-12 text-center ">
+                            <h1 id="text" class="display-5 fw-bold"></h1>
+                            <p class="lead">
+                                Aspiring Front-End Developer <br>
+                                Exploring the world of web development.
+                                I enjoy turning ideas into beautiful, functional websites.
+                            </p>
+                            <a href="Asset/Afrin_Resum(Hiration).pdf" download="Afrin_Resume.pdf">
+                                <button class="btn btn-dark">Resume</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <!-- About Me Section -->
+        <section class="about container" id="about">      
+            
+            <h2>About</h2>
+            <div class="about_section">
+
+                <p>I am a Master’s graduate in Computer Science with a strong passion for technology. I have
+                    upskilled in Front-End Development, learning to build responsive and user-friendly web
+                    interfaces using HTML, CSS, JavaScript, and Bootstrap.
+
+                    In addition, I completed an NSDC-certified “Senior Associate Analyst” course, gaining hands-on
+                    experience with Power BI, Looker Studio, and SQL for data handling and visualization.
+
+                    I am eager to apply my technical and creative skills to real-world projects and continue
+                    learning in the IT field.</p>
+
+                    <h2 class="skill-title">Skills</h2>
+                <div id="stars" class="stars"></div>
+
+                <div class="containers">
+                    <div id="constellation">
+    
+                        <canvas id="canvas">
+                        </canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Academics -->
+        <section id="academics">
+            <div class="wave-image-div">
+                <img src="./Asset/wave_timeline.png" alt="wave-image" class="wave-img">
+                <div class="academics">
+                    <h2>Academics</h2>
+
+                    <div class="pg">
+                        <h5>Post Graduate - M.Sc Computer Science</h5>
+                        <small><b> 2023 - 2025</b></small>
+                        <p>Achieved 85 % <br> Final Year Project: Breath-based Biometric Authentication System</p>
+                    </div>
+
+                    <div class="ug">
+                        <h5>Under Graduate - B.Sc Computer Science</h5>
+                        <small><b> 2020 - 2023</b></small>
+                        <p>Achieved 80 % <br> Final Year Project: Water Drinking remainder, mobile application.</p>
+                    </div>
+
+                    <div class="hsc">
+                        <h5>Higher Secondary Computer Science with Mathematics</h5>
+                        <small><b> 2019 - 2020</b></small>
+                        <p>Achieved 67 %</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+
+        <section class="projects container" id="projects">
+            <h2>My Works</h2>
+            <div class="project1">
+                <div class="project1_left left">
+                    <h3>Breath Based Biometric</h3>
+                    <small><b>Dec 2022 - March 2023</b></small>
+                    <p>Breath-Based Biometric Authentication System is a research-driven software project that explores
+                        using breath patterns as a biometric for secure authentication. The system processes recorded
+                        breath data using machine learning and Deep learning algorithms for training and classification.
+                        By analyzing the uniqueness of breath sound signals and identifying distinct features, the
+                        project demonstrates the potential of breath-based biometrics as a contactless, intelligent, and
+                        secure alternative to traditional authentication methods.</p>
+                    <p><b>Technologies Used </b> : Python, RNN-LSTM, Random Forest.</p>
+                </div>
+                <div class="project1_right right">
+                    <img class="project1_img" src="Asset/proj1_img.png" alt="">
+                </div>
+
+            </div>
+            <div class="project2">
+                <div class="project2_left left">
+                    <img src="Asset/proj2_img.png" alt="">
+                </div>
+                <div class="project2_right right">
+                    <h3>FrontEnd Development</h3>
+                    <p>Created responsive websites using HTML, CSS, and Bootstrap, focusing on clean layouts and
+                        user-friendly designs. Currently working on adding JavaScript to enhance interactivity and
+                        dynamic features, making the sites more engaging and functional for users.</p>
+                    <p><b>Technologies Used </b> : HTML-5, CSS-3, Bootstrap-5.</p>
+
+                    <a href="https://afrinrefai.github.io/Glitch-Arena/" target="_blank"><button
+                            class="explore_btn">View my work <i class="fas fa-arrow-right"
+                                style="color: white; background-color:#c52b73; border-radius: 50%; padding: 10px;"></i></button></a>
+
+                </div>
+            </div>
+
+            <div class="project3">
+                <div class="project3_left left">
+                    <h3>Data Analytics</h3>
+                    <p>Having experience in handling data to better visualize and analyze insights, I worked on 5+
+                        datasets across domains like finance, sales, and HR, performing data cleaning, transformation,
+                        and analysis. Designed and deployed 7+ interactive dashboards using Power BI, Excel, and Looker
+                        Studio, enhancing data storytelling and supporting decision-making.</p>
+                    <p><b>Technologies Used </b> : Power BI, Looker Studio, Excel, Python</p>
+                    <a href="https://github.com/Afrinrefai/Afrin" target="_blank"><button class="explore_btn">View my
+                            work <i class="fas fa-arrow-right"
+                                style="color: white; background-color:#c52b73; border-radius: 50%; padding: 10px;"></i></button></a>
+
+                </div>
+                <div class="project3_right right">
+                    <img src="Asset/proj3_img.png" alt="">
+                </div>
+            </div>
+
+            <div class="project2">
+                <div class="project2_left left">
+                    <img src="Asset/proj4_img.png" alt="">
+                </div>
+                <div class="project2_right right">
+                    <h3>UI/UX Designing</h3>
+                    <p>Gained hands-on experience in crafting intuitive and visually appealing interfaces, creating
+                        wireframes, prototypes, and responsive layouts in Figma. Focused on enhancing usability, clean
+                        visual structure, and smooth user flow to deliver practical design solutions.</p>
+                    <p><b>Technologies Used </b> : Figma, Wordpress, Illustrator, Photoshop</p>
+
+                    <a href="https://afrinrefai.github.io/Glitch-Arena/" target="_blank"><button
+                            class="explore_btn">View my work <i class="fas fa-arrow-right"
+                                style="color: white; background-color:#c52b73; border-radius: 50%; padding: 10px;"></i></button></a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="certificates">
+            <h2>Certifications</h2>
+            <div class="certificates">
+                <div class="card">
+                    <div class="cardtop">
+                        <h3>Data Analytics</h3>
+                        <p>Completed industry-focused coursework in data analytics, visualization, and reporting,
+                            gaining hands-on experience with Power BI and Looker Studio to build interactive dashboards
+                            across 5+ domains. Led a team of 25+ peers as student coordinator, enhancing leadership,
+                            communication, and collaboration skills.</p>
+                        <p><b>Platform </b> : Offline mode - National Skill Development Corporation</p>
+
+                    </div>
+                    <div class="date">
+                        Feb 2025
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardtop">
+                        <img src="" alt="">
+                        <h3>Data Science with Python</h3>
+                        <p>Completed the “Data Science using Python” course, gaining practical experience in Python
+                            programming, data analysis, and visualization, and applying analytical thinking to solve
+                            real-world data challenges effectively.</p>
+                        <p><b>Platform </b> : Online mode - Coursera</p>
+
+                    </div>
+                    <div class="date">
+                        Jan 2024
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardtop">
+                        <img src="" alt="">
+                        <h3>HTML</h3>
+                        <p>Completed a certification course in HTML, gaining hands-on experience in structuring and
+                            designing web pages with a focus on clean layout and accessibility. Learned to build the
+                            foundation for responsive and user-friendly websites, strengthening core web development
+                            skills essential for creating visually appealing and well-organized online interfaces.</p>
+                        <p><b>Platform </b> : Online mode - Coursera</p>
+
+                    </div>
+                    <div class="date">
+                        Jan 2024
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="connect" id="connect">
+            <div class="form">
+                <h2>Let's Connect</h2>
+                <form id="contactForm">
+                    <label for="name">Name</label>
+
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Subject</label>
+
+                    <input type="text" id="subject" required>
+
+                    <label for="message">Message</label>
+
+                    <textarea name="message" id="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+    <footer
+        style="text-align: center; padding: 20px; background-color: #fff0f5; color: #555; font-family: 'Poppins', sans-serif;">
+        <p>© 2025 Afrin Refai | Front-End Developer & Data Visualization Enthusiast</p>
+        <p>
+            <a href="mailto:afrin93444@gmail.com" style="color: #ff69b4; text-decoration: none;">📧 Email</a> |
+            <a href="https://github.com/Afrinrefai" target="_blank"
+                style="color: #ff69b4; text-decoration: none;">GitHub</a> |
+            <a href="https://linkedin.com/in/afrinrefai" target="_blank"
+                style="color: #ff69b4; text-decoration: none;">LinkedIn</a>
+        </p>
+        <p style="font-size: 14px;">Made with ❤️ using HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault(); // prevent actual form submission
+
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const subject = document.getElementById("subject").value;
+            const message = document.getElementById("message").value;
+
+            const mailtoLink = `mailto:afrin93444@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message)}`;
+
+            window.location.href = mailtoLink;
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
